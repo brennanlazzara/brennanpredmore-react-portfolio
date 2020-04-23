@@ -1,0 +1,11 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+
+}
+
+/* BACKGROUND VIDEO */
+#myVideo {
+  position: fixed;
+  z-index: -1;
+}
