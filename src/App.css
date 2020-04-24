@@ -4,8 +4,289 @@ body {
 
 }
 
-/* BACKGROUND VIDEO */
-#myVideo {
-  position: fixed;
-  z-index: -1;
+
+/* paragraph for index.html */
+p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow:
+  3px  3px 0 #333,
+ -1px -1px 0 #333,  
+  1px -1px 0 #333,
+ -1px  1px 0 #333,
+  1px  1px 0 #333;
 }
+
+#profile_image {
+  float: left;
+  margin-right: 10px;
+}
+
+/* subheader for contact page */
+h3 {
+  color: #4aaaa5;
+  clear: both;
+  margin-left: 50px;
+  height: -150px;
+  font-size: 30px;
+  margin-left: 1%;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  border: thick groove white;
+}
+
+/* HEADER LINKS */
+
+/* about link */
+#links {
+  margin: 0 auto;
+  margin-right: auto;
+  color: white;
+  text-shadow:
+  3px  3px 0 #333,
+ -1px -1px 0 #333,  
+  1px -1px 0 #333,
+ -1px  1px 0 #333,
+  1px  1px 0 #333;   
+}
+
+#about {
+  border-right: #777777 solid 1px;
+  border-spacing: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  color: #777777;
+}
+
+/* portfolio link */
+#portfolio {
+  border-right: #777777 solid 1px;
+  border-spacing: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  color: #777777;
+}
+
+/* contact link */
+#contact {
+  padding-right: 16.6%;
+  color: #777777;
+
+}
+
+
+/* CONTACT PAGE */
+
+/* contact form div */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* submit button on contact page*/
+#button {
+  background-color: #4aaaa5;
+  font-size: 15px;
+  color: white;
+}
+
+/* main content div for contact/index page */
+.my-container {
+  background-color: #4aaaa5;
+  width: 66.6%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: thick groove white;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.container-fluid {
+
+  text-align: center;
+}
+
+
+/* PORTFOLIO CARDS */
+h1 {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  text-shadow:
+  3px  3px 0 #f2f2f2,
+ -1px -1px 0 #f2f2f2,  
+  1px -1px 0 #f2f2f2,
+ -1px  1px 0 #f2f2f2,
+  1px  1px 0 #f2f2f2;
+}
+
+#gitRepo {
+  font-size: 10%;
+}
+
+h5 {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  text-shadow:
+  3px  3px 0 #f2f2f2,
+ -1px -1px 0 #f2f2f2,  
+  1px -1px 0 #f2f2f2,
+ -1px  1px 0 #f2f2f2,
+  1px  1px 0 #f2f2f2;
+}
+
+#cardTitle {
+  color: #333;
+  margin: 0 auto;
+  font-size: 0.5 rem;
+  text-align: center;
+  text-shadow:
+  3px  3px 0 #f2f2f2,
+  -1px -1px 0 #f2f2f2,  
+   1px -1px 0 #f2f2f2,
+  -1px  1px 0 #f2f2f2,
+   1px  1px 0 #f2f2f2;
+}
+
+h7 {
+  font-size: 10%;
+}
+
+/* CARDS */
+.card {
+  width: 50%;
+  height: 16rem;
+  margin: auto;
+  border: thick groove white;
+  margin-top: 20px;
+  background-color: #4aaaa5;
+
+}
+
+.social {
+  height: 29rem;
+  margin-bottom: 3rem;
+}
+
+
+img:hover {
+  opacity: 0.5;
+}
+
+.img-fluid {
+  margin-bottom: 10px;
+}
+
+
+.contactHeader { 
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      text-shadow:
+      3px  3px 0 #333,
+     -1px -1px 0 #333,  
+      1px -1px 0 #333,
+     -1px  1px 0 #333,
+      1px  1px 0 #333;   
+}
+
+/* 
+FOOTER */
+footer {
+  background-color: #666666;
+  text-align: center;
+  padding-bottom: -20px;
+  margin-top: 20px;
+  height: 35px;
+  color: #f2f2f2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px solid #4aaaa5;
+  position: fixed;
+}
+
+#contactFooter {
+  background-color: #666666;
+  text-align: center;
+  padding-bottom: -20px;
+  margin-top: 20px;
+  height: 35px;
+  color: #f2f2f2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px solid #4aaaa5;
+  position: fixed;
+}
+
+
+/* BACKGROUND MY VIDEO
+@media (min-aspect-ratio: 16/9) {
+  .myVideo {
+      width: 100%;
+      height: auto;
+  }
+
+  @media (max-aspect-ratio: 16/9) {
+      .myVideo {
+          width: auto;
+          height: 100%;
+      }
+  }
+
+  @media (max-width: 767px) {
+      .myVideo {
+          display: none;
+      }
+
+      body {
+          background: url('../public/assets/mobileBackGround.png');
+          background-size: cover;
+      }
+  }
+
+  /* Greater than 641px and less than 990px, Tablet */
+  /* @media (min-width:641px) and (max-width:990px) {
+      body {
+          text-align: center;
+      }
+
+  }
+
+} */
+
+  /* Less than 640px, Mobile */
+  /* @media (max-width:375px) {
+      body {
+          text-align: center;
+          background: #4aaaa5 url('../public/assets/mobileBackGround.png') fixed center !important;
+      }
+
+      .social {
+          height: 17.5rem;
+          margin-bottom: 3rem;
+      }
+  } */
