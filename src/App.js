@@ -1,6 +1,9 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-// import Video from './components/Video';
+import Home from './components/Pages/Home'
+import Contact from './components/Pages/Contact'
+import Portfolio from './components/Pages/Portfolio'
+import Video from './components/Video';
 import Header from './components/Header';
 import Footer from './components/Footer'
 
@@ -10,14 +13,16 @@ function App() {
   return (
     <Router>
     <div className="App">
-      {/* <Video /> */}
+      <Video />
     <Header />
     <div className="container">
-      <About-Me />
+      <Route exact path='/' component={Home}/>
+            <Route exact path='/contact' component={Contact}/>
+            <Route exact path='/' component={Portfolio}/>
     </div>
     <Footer />
     </div>
-    {/* <Route exact path='/' component{Home}/> */}
+    
     </Router>
   );
 }

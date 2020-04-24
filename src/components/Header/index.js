@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom' 
 import './header.css'
 
 function index() {
@@ -17,16 +18,21 @@ function index() {
           <ul class="navbar-nav mr-auto">
 
             <li class="nav-item">
-              <div id="about"><a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+              <div >
+              <Link to='/' class="nav-link" id="about"> Home </Link>
               </div>
             </li>
 
             <li class="nav-item">
-              <div id="portfolio"><a class="nav-link" href="portfolio.html">Portfolio</a></div>
+            <div >
+              <Link to='/' class="nav-link" id="about"> Portfolio </Link>
+              </div>
             </li>
 
             <li class="nav-item">
-              <div id="contact"><a class="nav-link" href="contact.html">Contact</a></div>
+            <div >
+              <Link to='/' class="nav-link" id="about"> Contact </Link>
+              </div>
             </li>
 
           </ul>
