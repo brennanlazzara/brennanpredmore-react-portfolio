@@ -9,11 +9,11 @@
     border: thick groove white;
   }
 
-
-
 /* Submit Button */
 #button {
   background-color: #4aaaa5;
   font-size: 15px;
   color: white;
+  border-radius: 25%;
+  justify-content: center;
 }

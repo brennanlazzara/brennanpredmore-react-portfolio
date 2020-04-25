@@ -1,40 +1,69 @@
-import React from 'react';
-import { Button, Form, FormGroup, Input } from 'reactstrap';
+import React from "react";
+import axios from "axios"; // For making client request.
 
-const Example = (props) => {
-  return (
-        <div style={divWidth} class="my-container"> 
-            <h3>Contact</h3>      
-        <Form> 
 
-         {/* FULL NAME FORM */}
-      <FormGroup>
-        <Input htmlFor="fname" type="text" name="email"
-          action="https://formspree.io/mknvjllw" method="POST"  
-          placeholder="Full Name" style={formStyle} />
-      </FormGroup>
-      <FormGroup>
+class Form extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {name: "", surname: "", email: "", message: ""};
+  }
 
-        {/* EMAIL FORM */}
-        <Input name="_replyto Email" type="text" placeholder="Your Email..."style={formStyle} />
-      </FormGroup>
+  handleForm = e => {
+    axios.post(
+      "https://formcarry.com/s/VYffIt9BMu1G", 
+      this.state, 
+      {headers: {"Accept": "application/json"}}
+      )
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
 
-        {/* MESSAGE FORM */}
-      <FormGroup>
-        <Input type="textarea" name="text"  
-          placeholder="Write a message..." style={formStyle} />
-      </FormGroup>
+    e.preventDefault();
+  }
 
-      {/* SELECT FILE */}
-      <FormGroup>
-        <Input type="file" name="file" id="exampleFile" />
-      </FormGroup>
+  handleFields = e => this.setState({ [e.target.name]: e.target.value });
 
-      {/* SUBMIT BUTTON */}
-      <Button id="button" type="submit">Submit</Button>
-    </Form>
-    </div>
-  );
+  render() {
+    return (
+      <div style={divWidth} className="my-container">
+            <h3 style={subHeaderStyle}>Contact</h3>  
+      <form onSubmit={this.handleForm}>
+ 
+        <input style={formStyle} placeholder="Full Name" htmlFor="name" 
+        type="text" id="name" name="name" onChange={this.handleFields} />
+
+
+        {/* <input style={formStyle}  placeholder="last Name..." htmlFor="surname" 
+        type="text" id="surname" name="surname" onChange={this.handleFields} /> */}
+
+        <input style={formStyle}  placeholder="Email" htmlFor="email" 
+        type="email" id="email" name="email" onChange={this.handleFields} />
+
+
+        <textarea style={formStyle}  placeholder="Your Message..." htmlFor="message" 
+        ame="message" id="message" onChange={this.handleFields}></textarea>
+
+        <button id='button' type="submit">Submit</button>
+      </form>
+      </div>
+    );
+  }
+}
+
+export default Form;
+
+// ADDITIONAL STYLING
+const subHeaderStyle = {
+  color: '#333',
+  textShadow: '3px  3px 0 #f2f2f2 -1px -1px 0 #f2f2f2 1px -1px 0 #f2f2f2 -1px  1px 0 #f2f2f2 1px  1px 0 #f2f2f2',
+  clear: 'both',
+  height: '-150px',
+  fontWeight: 'bold',
+  textAlign: 'Center',
+  padding: '2%'
 }
 const divWidth = {
   width: '50%'
@@ -48,6 +77,3 @@ const formStyle = {
     marginTop: '6px 16px',
     marginBottom: '16px'
 }
-
-export default Example;
-       
