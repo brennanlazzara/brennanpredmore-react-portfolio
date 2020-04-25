@@ -25,13 +25,13 @@ function index() {
 
             <li class="nav-item">
             <div >
-              <Link to='/' class="nav-link" id="about"> Portfolio </Link>
+              <Link to='/portfolio' class="nav-link" id="about"> Portfolio </Link>
               </div>
             </li>
 
             <li class="nav-item">
             <div >
-              <Link to='/' class="nav-link" id="about"> Contact </Link>
+              <Link to='/contact' class="nav-link" id="about"> Contact </Link>
               </div>
             </li>
 
@@ -41,6 +41,7 @@ function index() {
     </nav>
   </header>
         </div>
+        
     )
 }
 

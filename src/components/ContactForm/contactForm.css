@@ -1,0 +1,19 @@
+.my-container {
+    background-color: #4aaaa5;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: thick groove white;
+  }
+
+
+
+/* Submit Button */
+#button {
+  background-color: #4aaaa5;
+  font-size: 15px;
+  color: white;
+}

@@ -4,6 +4,9 @@ import './aboutMe.css'
 function index() {
     return (
         <div className='my-container'>
+
+<h3>About me</h3>
+
  <img id="profile_image" src="./assets/brennan.jpg" alt="me" height="200px" width="201px"/>
 
 

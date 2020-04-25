@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       <Video />
     <Header />
-    <div className="container">
-      <Route exact path='/' component={Home}/>
-            <Route exact path='/contact' component={Contact}/>
-            <Route exact path='/' component={Portfolio}/>
-    </div>
+     <div className="container">
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/contact' component={Contact}/>
+        <Route exact path='/portfolio' component={Portfolio}/>
+      </div>
     <Footer />
     </div>
     

@@ -24,14 +24,20 @@ p {
 }
 
 /* subheader for contact page */
-h3 {
-  color: #4aaaa5;
+/* h3 {
+  color: #f2f2f2;
+  text-shadow:
+  3px  3px 0 #333,
+ -1px -1px 0 #333,  
+  1px -1px 0 #333,
+ -1px  1px 0 #333,
+  1px  1px 0 #333;
   clear: both;
   margin-left: 50px;
   height: -150px;
   font-size: 30px;
   margin-left: 1%;
-}
+} */
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -86,7 +92,7 @@ h3 {
 /* CONTACT PAGE */
 
 /* contact form div */
-input[type=text],
+/* input[type=text],
 select,
 textarea {
   width: 100%;
@@ -96,7 +102,7 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-}
+} */
 
 /* submit button on contact page*/
 #button {
@@ -106,7 +112,7 @@ textarea {
 }
 
 /* main content div for contact/index page */
-.my-container {
+/* .my-container {
   background-color: #4aaaa5;
   width: 100%;
   margin: auto;
@@ -116,7 +122,7 @@ textarea {
   padding-right: 10px;
   padding-left: 10px;
   border: thick groove white;
-}
+} */
 
 .container {
   margin-bottom: 50px;
