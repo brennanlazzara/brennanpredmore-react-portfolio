@@ -19,6 +19,7 @@ class Portfolio extends Component {
     const newIndex = this.state.property.index+1;
     this.setState({
       property: data.properties[newIndex]
+      
     })
   }
 
@@ -34,19 +35,19 @@ class Portfolio extends Component {
     return (
       <div className="App">
 
-        <button 
-          onClick={() => this.nextProperty()} 
-          disabled={property.index === data.properties.length-1}
-        >Next</button>
+          <h1><u>Projects</u></h1>
         <button 
           onClick={() => this.prevProperty()} 
           disabled={property.index === 0}
         >Prev</button>
-
+        <button 
+          onClick={() => this.nextProperty()} 
+          disabled={property.index === data.properties.length-1}
+        >Next</button>
         <div className="page">
             <section>
 
-                <h1>Image slideshow React tutorial.</h1>
+  
             </section>
 
             <div className="col">

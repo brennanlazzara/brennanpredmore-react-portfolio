@@ -1,13 +1,11 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-
+import './App.css';
 import App from './App';
-
+import registerServiceWorker from './registeredServiceWorker';
 
 ReactDOM.render(
-  <Fragment>
-    <App />
-  </Fragment>,
-  document.getElementById('root')
+    <App />, 
+    document.getElementById('root')
 );
-
+registerServiceWorker();

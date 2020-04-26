@@ -2,21 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = ({property}) => {
-    const {index, picture, city, address, bedrooms, bathrooms, carSpaces} = property;
+    const {index, picture, about, title} = property;
     return (
         <div id={`card-${index}`} className="card">
-            <img src={picture} alt={city} />
+                  <h6 id="cardTitle">{title}</h6>
+                  <a id="gitRepo" href="https://github.com/BrennanPredmore/project_1">Github Repository</a>
+            <img src={picture} alt="GIF"/>
             <div className="details">
-                <span className="index">{index+1}</span>
-                <p className="location">
-                    {city}<br />
-                    {address}
-                </p>
-                <ul className="features">
-                    <li className="icon-bed">{bedrooms} <span>bedrooms</span></li>
-                    <li className="icon-bath">{bathrooms} <span>bathrooms</span></li>
-                    <li className="icon-car">{carSpaces} <span>parking spots</span></li>
-                </ul>
+                    <h6>{about}</h6>
             </div>
         </div>
     )
@@ -25,5 +18,7 @@ const Card = ({property}) => {
 Card.propTypes = {
     property: PropTypes.object.isRequired
 }
+
+
 
 export default Card;
