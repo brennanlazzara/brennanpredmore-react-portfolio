@@ -78,18 +78,6 @@ p {
 
 /* CONTACT PAGE */
 
-/* contact form div */
-/* input[type=text],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-} */
 
 /* submit button on contact page*/
 #button {
@@ -98,18 +86,7 @@ textarea {
   color: white;
 }
 
-/* main content div for contact/index page */
-/* .my-container {
-  background-color: #4aaaa5;
-  width: 100%;
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 50px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  border: thick groove white;
-} */
+
 
 .container {
   margin-bottom: 50px;
@@ -207,33 +184,8 @@ img:hover {
 
 /* 
 FOOTER */
-footer {
-  background-color: #666666;
-  text-align: center;
-  padding-bottom: -20px;
-  margin-top: 20px;
-  height: 35px;
-  color: #f2f2f2;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  border-top: 5px solid #4aaaa5;
-  position: fixed;
-}
 
-#contactFooter {
-  background-color: #666666;
-  text-align: center;
-  padding-bottom: -20px;
-  margin-top: 20px;
-  height: 35px;
-  color: #f2f2f2;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  border-top: 5px solid #4aaaa5;
-  position: fixed;
-}
+
 
 
 /* BACKGROUND MY VIDEO
