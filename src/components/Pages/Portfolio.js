@@ -1,33 +1,70 @@
-import React from 'react'
+import React, { Component } from 'react';
+import './portfolio.css';
+import Card from '../Card';
+import data from '../Data/Data'
 
-function Portfolio() {
+
+// class component
+class Portfolio extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      properties: data.properties,
+      property: data.properties[0]
+    }
+  }
+
+  nextProperty = () => {
+    const newIndex = this.state.property.index+1;
+    this.setState({
+      property: data.properties[newIndex]
+    })
+  }
+
+  prevProperty = () => {
+    const newIndex = this.state.property.index-1;
+    this.setState({
+      property: data.properties[newIndex]
+    })
+  }
+
+  render() {
+    const {properties, property} = this.state;
     return (
-        <div>
-              <h1><u>Projects</u></h1>
-              <div class="container"/>
-    <div class="row"/>
-    <div class="card col-md-3 col-12"/>
-      <h2 id="cardTitle">Trustafarian World Wide</h2>
-      <a id="gitRepo" href="https://github.com/BrennanPredmore/project_1">Github Repository</a>
-      <a href="https://brennanpredmore.github.io/project_1/"/>
-        <img class="img-fluid" src="https://media.giphy.com/media/ZA6BQajWQV6y8HYQgn/giphy.gif" alt="projectOne" id="projectOne"/>
+      <div className="App">
 
+        <button 
+          onClick={() => this.nextProperty()} 
+          disabled={property.index === data.properties.length-1}
+        >Next</button>
+        <button 
+          onClick={() => this.prevProperty()} 
+          disabled={property.index === 0}
+        >Prev</button>
 
-    <div class="card col-md-3 col-12"/>
-      <h2 id="cardTitle">Zeldas Cut-Throat Kitchen</h2>
-      <a id="gitRepo" href="https://github.com/BrennanPredmore/project2">Github Repository</a>
-      <a href="https://zelda-cut-throat-kitchen.herokuapp.com/"/>
-        <img class="img-fluid" src="https://media.giphy.com/media/U2S8YrlEWxuyeTMV0P/giphy.gif" alt="zeldaGIF"
-          id="zeldaGIF"/>
+        <div className="page">
+            <section>
 
- 
-    <div class="card col-md-3 col-12"/>
-      <h2 id="cardTitle">Code Quiz</h2>
-      <a id="gitRepo" href="https://github.com/BrennanPredmore/codeQuiz">Github Repository</a>
-      <a href="https://brennanpredmore.github.io/codeQuiz/"/>
-        <img class="img-fluid" src="https://media.giphy.com/media/iJgOcYFBuZZOUL5CFN/giphy.gif" alt="codeQuiz" id="codeQuiz"/>
-</div>
-    )
+                <h1>Image slideshow React tutorial.</h1>
+            </section>
+
+            <div className="col">
+              <div className={`cards-slider active-slide-${property.index}`}>
+                <div className="cards-slider-wrapper" style={{
+                  'transform': `translateX(-${property.index*(100/properties.length)}%)`
+                }}>
+                  {
+                    properties.map(property => <Card key={property._id} property={property} />)
+                  }
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    );
+  }
 }
 
-export default Portfolio
+export default Portfolio;
