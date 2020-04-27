@@ -6,9 +6,11 @@ const data = {
         "_id": "593e9297ec4cca9c56bf61af",
         "index": 0,
         "title": "Zeldas Cut-Throat Kitchen",
+        
         "picture": "https://media.giphy.com/media/U2S8YrlEWxuyeTMV0P/giphy.gif",
-        "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS MYSQL2 SEQUELIZE"
-
+        "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS MYSQL2 SEQUELIZE",
+        "githubLink": "",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     },    
     {
         // TRUSTAFARIAN CARD
@@ -16,7 +18,9 @@ const data = {
         "index": 1,
         "title": "Trustafarians World Wide", 
         "picture": "https://media.giphy.com/media/ZA6BQajWQV6y8HYQgn/giphy.gif",
-        "about": "HTML CSS - BULMA JAVASCRIPT JQUERY API (SKYSCANNER, OPEN WEATHER)"
+        "about": "HTML CSS - BULMA JAVASCRIPT JQUERY API (SKYSCANNER, OPEN WEATHER)",
+        "githubLink": "",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
 
 
     },
@@ -26,7 +30,9 @@ const data = {
         "index": 2,
         "title": "Code Quiz",
         "picture": "https://media.giphy.com/media/iJgOcYFBuZZOUL5CFN/giphy.gif",
-        "about": "HTML CSS BOOTSTRAP JAVASCRIPT/JQUERY"
+        "about": "HTML CSS BOOTSTRAP JAVASCRIPT/JQUERY",
+        "githubLink": "",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
 
     },
     {
@@ -35,7 +41,9 @@ const data = {
         "index": 3,
         "title": "MVC Burger Resturaunt",
         "picture": "https://media.giphy.com/media/huOgLzf13q97T0XtrC/giphy.gif",
-        "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS EXPRESS-HANDLEBARS MYSQL ORM"
+        "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS EXPRESS-HANDLEBARS MYSQL ORM",
+        "githubLink": "",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     },
     {
         // EMPLOYEE TRACKER
@@ -43,7 +51,9 @@ const data = {
         "index": 4,
         "title": "EMPLOYEE TRACKER",
         "picture": "https://media.giphy.com/media/kDx2eO0DkaYnP1uPD5/giphy.gif",
-        "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS"
+        "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS",
+        "githubLink": "",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     },
     {
         // Work Day Scheduler
@@ -51,28 +61,33 @@ const data = {
         "index": 5,
         "title": "Work Day Scheduler",
         "picture": "https://media.giphy.com/media/IgdImK8Aq7UDfSs6kO/giphy.gif",
-        "about": "HTML CSS BOOTSTRAP JAVASCRIPT JQUERY"
+        "about": "HTML CSS BOOTSTRAP JAVASCRIPT JQUERY",
+        "githubLink": "",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     },
     {
         // LinkedIn
         "_id": "593e9297a13e246da5ba0884",
         "index": 6,
         "title": "LinkedIn",
-        "picture": "../public/assets/linkedInScreenShot.png",
+        "picture": "assets/linkedInScreenShot.png",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     },
     {
         // GITHUB
         "_id": "593e9297afa51a013fcd07d5",
         "index": 7,
         "title": "Github",
-        "picture": "public/assets/githubScreenShot.png",
+        "picture": "assets/githubScreenShot.png",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     },
     {
         // RESUME
         "_id": "593e92972bd8fd05f2ab1a89",
         "index": 8,
         "title": "Resume",
-        "picture": "public/assets/resumeScreenShot.png",
+        "picture": "assets/resumeScreenShot.png",
+        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     }
     ]
 }

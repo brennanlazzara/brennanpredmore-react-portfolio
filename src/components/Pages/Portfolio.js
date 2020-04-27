@@ -35,7 +35,6 @@ class Portfolio extends Component {
     return (
       <div className="App">
 
-          <h1><u>Projects</u></h1>
         <button 
           onClick={() => this.prevProperty()} 
           disabled={property.index === 0}
@@ -50,7 +49,7 @@ class Portfolio extends Component {
   
             </section>
 
-            <div className="col">
+             <div className="col">
               <div className={`cards-slider active-slide-${property.index}`}>
                 <div className="cards-slider-wrapper" style={{
                   'transform': `translateX(-${property.index*(100/properties.length)}%)`
@@ -60,7 +59,7 @@ class Portfolio extends Component {
                   }
                 </div>
               </div>
-            </div>
+            </div> 
 
         </div>
       </div>
