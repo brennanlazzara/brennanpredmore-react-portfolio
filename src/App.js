@@ -1,11 +1,11 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Home from './components/Pages/Home'
-import Contact from './components/Pages/Contact'
-import Portfolio from './components/Pages/Portfolio'
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from './components/Pages/Home';
+import Contact from './components/Pages/Contact';
+import Portfolio from './components/Pages/Portfolio';
 import Video from './components/Video';
 import Header from './components/Header';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 
 import './App.css';
 
