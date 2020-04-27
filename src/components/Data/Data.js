@@ -9,7 +9,7 @@ const data = {
         
         "picture": "https://media.giphy.com/media/U2S8YrlEWxuyeTMV0P/giphy.gif",
         "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS MYSQL2 SEQUELIZE",
-        "githubLink": "",
+        "githubLink": "https://github.com/BrennanPredmore/project2",
         "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
     },    
     {
@@ -19,8 +19,8 @@ const data = {
         "title": "Trustafarians World Wide", 
         "picture": "https://media.giphy.com/media/ZA6BQajWQV6y8HYQgn/giphy.gif",
         "about": "HTML CSS - BULMA JAVASCRIPT JQUERY API (SKYSCANNER, OPEN WEATHER)",
-        "githubLink": "",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "githubLink": "https://github.com/BrennanPredmore/project_1",
+        "projectLink": "https://brennanpredmore.github.io/project_1/"
 
 
     },
@@ -31,8 +31,8 @@ const data = {
         "title": "Code Quiz",
         "picture": "https://media.giphy.com/media/iJgOcYFBuZZOUL5CFN/giphy.gif",
         "about": "HTML CSS BOOTSTRAP JAVASCRIPT/JQUERY",
-        "githubLink": "",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "githubLink": "https://github.com/BrennanPredmore/codeQuiz",
+        "projectLink": "https://brennanpredmore.github.io/codeQuiz/"
 
     },
     {
@@ -42,8 +42,8 @@ const data = {
         "title": "MVC Burger Resturaunt",
         "picture": "https://media.giphy.com/media/huOgLzf13q97T0XtrC/giphy.gif",
         "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS EXPRESS-HANDLEBARS MYSQL ORM",
-        "githubLink": "",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "githubLink": "https://github.com/BrennanPredmore/MVC",
+        "projectLink": "https://burgermvc.herokuapp.com/"
     },
     {
         // EMPLOYEE TRACKER
@@ -52,8 +52,8 @@ const data = {
         "title": "EMPLOYEE TRACKER",
         "picture": "https://media.giphy.com/media/kDx2eO0DkaYnP1uPD5/giphy.gif",
         "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS",
-        "githubLink": "",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "githubLink": "https://github.com/BrennanPredmore/OOP",
+        "projectLink": ""
     },
     {
         // Work Day Scheduler
@@ -62,8 +62,8 @@ const data = {
         "title": "Work Day Scheduler",
         "picture": "https://media.giphy.com/media/IgdImK8Aq7UDfSs6kO/giphy.gif",
         "about": "HTML CSS BOOTSTRAP JAVASCRIPT JQUERY",
-        "githubLink": "",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "githubLink": "https://github.com/BrennanPredmore/work_day_scheduler",
+        "projectLink": "https://brennanpredmore.github.io/work_day_scheduler/"
     },
     {
         // LinkedIn
@@ -79,7 +79,7 @@ const data = {
         "index": 7,
         "title": "Github",
         "picture": "assets/githubScreenShot.png",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "projectLink": "https://brennanpredmore.github.io/"
     },
     {
         // RESUME
