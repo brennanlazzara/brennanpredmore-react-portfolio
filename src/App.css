@@ -144,7 +144,7 @@ h7 {
   font-size: 10%;
 }
 
-/* CARDS */
+/* CARDS
 .card {
   width: 50%;
   height: 16rem;
@@ -167,7 +167,7 @@ img:hover {
 
 .img-fluid {
   margin-bottom: 10px;
-}
+} */
 
 
 /* .contactHeader { 
@@ -188,50 +188,109 @@ FOOTER */
 
 
 
-/* BACKGROUND MY VIDEO
+/* BACKGROUND MY VIDEO */
 @media (min-aspect-ratio: 16/9) {
-  .myVideo {
+  #myVideo {
       width: 100%;
       height: auto;
   }
 
   @media (max-aspect-ratio: 16/9) {
-      .myVideo {
+      #myVideo {
           width: auto;
           height: 100%;
       }
   }
 
   @media (max-width: 767px) {
-      .myVideo {
+      #myVideo {
           display: none;
       }
 
       body {
-          background: url('../public/assets/mobileBackGround.png');
+          background: url('mobileBackGround.png');
           background-size: cover;
+          background: no-repeat;
       }
   }
 
-  /* Greater than 641px and less than 990px, Tablet */
-  /* @media (min-width:641px) and (max-width:990px) {
+   /* Greater than 641px and less than 990px, Tablet  */
+   @media (min-width:641px) and (max-width:990px) {
       body {
           text-align: center;
+          background: no-repeat center;
+          background-size: cover;
+          background: aqua ;
+          background-image: url('./mobileBackGround.png');
       }
+
+      #myVideo {
+        display: none;
+    }
 
   }
 
-} */
+} 
 
-  /* Less than 640px, Mobile */
-  /* @media (max-width:375px) {
+   /* Less than 640px, Mobile  */
+   @media (min-width:400px) and (max-width: 641px) {
+    body {
+        text-align: center;
+        background: no-repeat center ;
+        background-size: cover;
+        background: aqua ;
+        background-image: url('./mobileBackGround.png');
+
+    }
+
+    #myVideo {
+      display: none;
+  }
+
+    .social {
+        height: 17.5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+   /* Less than 640px, Mobile  */
+   @media (min-width:375px) and (max-width: 399px) {
       body {
           text-align: center;
-          background: #4aaaa5 url('../public/assets/mobileBackGround.png') fixed center !important;
+          background: no-repeat center ;
+          background-size: cover;
+          background: aqua ;
+          background-image: url('./mobileBackGround.png');
+
       }
+
+      #myVideo {
+        display: none;
+    }
 
       .social {
           height: 17.5rem;
           margin-bottom: 3rem;
       }
-  } */
+  }
+
+     /* Less than 640px, Mobile  */
+     @media (min-width:300px) and (max-width: 375px) {
+      body {
+          text-align: center;
+          background: no-repeat center ;
+          background-size: cover;
+          background: aqua ;
+          background-image: url('./mobileBackGround.png');
+
+      }
+
+      #myVideo {
+        display: none;
+    }
+
+      .social {
+          height: 17.5rem;
+          margin-bottom: 3rem;
+      }
+  }
