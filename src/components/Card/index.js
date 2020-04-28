@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Card = ({property}) => {
     const {index, picture, about, title, githubLink, projectLink} = property;
     const badgeItems = about ? about.split(" ").map((badge) =>{
-    return <div class="badge badge-primary">{badge}</div>
+    return <div key={badge} className="badge badge-primary">{badge}</div>
     })  : null
     return (
         <div id={`card-${index}`} className="card">
