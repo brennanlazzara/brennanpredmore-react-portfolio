@@ -75,7 +75,7 @@ class Portfolio extends Component {
 
   const prevButton = {
     borderRadius: "10px",
-    marginLeft: "1.5%",
+    marginRight: "1.5%",
     backgroundColor: "#999999",
     fontWeight: "bold"
   }
