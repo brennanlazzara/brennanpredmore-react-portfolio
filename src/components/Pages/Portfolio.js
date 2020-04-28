@@ -35,11 +35,11 @@ class Portfolio extends Component {
     return (
       <div className="App">
 
-        <button 
+        <button style={prevButton}
           onClick={() => this.prevProperty()} 
           disabled={property.index === 0}
         >Prev</button>
-        <button 
+        <button style={nextButton}
           onClick={() => this.nextProperty()} 
           disabled={property.index === data.properties.length-1}
         >Next</button>
@@ -66,5 +66,17 @@ class Portfolio extends Component {
     );
   }
 }
+  const nextButton = {
+    borderRadius: "10px",
+    marginLeft: "1.5%",
+    backgroundColor: "#4aaaa5",
+    fontWeight: "bold"
+  }
 
+  const prevButton = {
+    borderRadius: "10px",
+    marginLeft: "1.5%",
+    backgroundColor: "#999999",
+    fontWeight: "bold"
+  }
 export default Portfolio;

@@ -71,7 +71,7 @@ const data = {
         "index": 6,
         "title": "LinkedIn",
         "picture": "assets/linkedInScreenShot.png",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "projectLink": "https://www.linkedin.com/in/brennan-predmor%C3%A9-132306195/"
     },
     {
         // GITHUB
@@ -79,7 +79,7 @@ const data = {
         "index": 7,
         "title": "Github",
         "picture": "assets/githubScreenShot.png",
-        "projectLink": "https://brennanpredmore.github.io/"
+        "projectLink": "https://github.com/BrennanPredmore"
     },
     {
         // RESUME
@@ -87,7 +87,7 @@ const data = {
         "index": 8,
         "title": "Resume",
         "picture": "assets/resumeScreenShot.png",
-        "projectLink": "https://zelda-cut-throat-kitchen.herokuapp.com/"
+        "projectLink": ""
     }
     ]
 }
