@@ -5,7 +5,7 @@ import axios from "axios"; // For making client request.
 class Form extends React.Component {
   constructor(props){
     super(props);
-    this.state = {name: "", surname: "", email: "", message: ""};
+    this.state = {name: "", email: "", message: ""};
   }
 
   handleForm = e => {
@@ -36,8 +36,6 @@ class Form extends React.Component {
         type="text" id="name" name="name" onChange={this.handleFields} />
 
 
-        {/* <input style={formStyle}  placeholder="last Name..." htmlFor="surname" 
-        type="text" id="surname" name="surname" onChange={this.handleFields} /> */}
 
         <input style={formStyle}  placeholder="Email" htmlFor="email" 
         type="email" id="email" name="email" onChange={this.handleFields} />

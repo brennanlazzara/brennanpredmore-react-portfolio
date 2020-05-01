@@ -11,7 +11,7 @@ const Card = ({property}) => {
                   <h6 id="cardTitle">{title}</h6>
                 { index <= 5 ? <a id="gitRepo" href={githubLink}>Github Repository</a>  : null }
                 {index < 8 ? <a href={projectLink}> <img src={picture} alt="GIF"/></a> : 
-           <a href="./assets/resume2020.pdf" download="resume"><img src={picture} alt="resume"/></a> }
+           <a href="./assets/BrennanPredmoreResume2020.pdf" download="resume"><img src={picture} alt="resume"/></a> }
             
 
             <div className="details">
