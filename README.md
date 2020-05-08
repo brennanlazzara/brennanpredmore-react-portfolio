@@ -1,6 +1,6 @@
 # Brennan Predmore React Portfolio
 
-![Screenshot]()
+![Screenshot](public/assets/readMeScreenShot.png)
 
 ## Github pages 
 
@@ -20,6 +20,9 @@ Please make sure to update tests as appropriate.
 
 ## Link
 https://github.com/BrennanPredmore/brennanpredmore-react-portfolio
+
+https://brennan-predmore-portfolio.herokuapp.com/
+
 
 ## License
 No License required. These are public pages. 

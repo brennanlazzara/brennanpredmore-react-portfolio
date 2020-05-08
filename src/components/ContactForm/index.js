@@ -15,10 +15,10 @@ class Form extends React.Component {
       {headers: {"Accept": "application/json"}}
       )
       .then(function (response) {
-        console.log(response);
+
       })
       .catch(function (error) {
-        console.log(error);
+  
       });
 
     e.preventDefault();
