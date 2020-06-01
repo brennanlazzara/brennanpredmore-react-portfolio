@@ -1,10 +1,20 @@
 const data = {
     "properties": [
-
+        {
+            // Jobless
+            "_id": "593e9297ec4cca9c56bf61af",
+            "index": 0,
+            "title": "Jobless",
+            
+            "picture": "https://media.giphy.com/media/cgeIncAhR7ot5ye30F/giphy.gif",
+            "about": "REACT MONGODB EXPRESS NODE",
+            "githubLink": "https://github.com/BrennanPredmore/jobless",
+            "projectLink": "https://jobless2020.herokuapp.com/"
+        },    
     {
         // Zeldas Cut-Throat Kitchen
         "_id": "593e9297ec4cca9c56bf61af",
-        "index": 0,
+        "index": 1,
         "title": "Zeldas Cut-Throat Kitchen",
         
         "picture": "https://media.giphy.com/media/U2S8YrlEWxuyeTMV0P/giphy.gif",
@@ -15,7 +25,7 @@ const data = {
     {
         // TRUSTAFARIAN CARD
         "_id": "593e9297e17df20c4a237d42",
-        "index": 1,
+        "index": 2,
         "title": "Trustafarians World Wide", 
         "picture": "https://media.giphy.com/media/ZA6BQajWQV6y8HYQgn/giphy.gif",
         "about": "HTML CSS - BULMA JAVASCRIPT JQUERY API (SKYSCANNER, OPEN WEATHER)",
@@ -27,7 +37,7 @@ const data = {
     {
         // Code Quiz
         "_id": "593e929773c71925e5d7c11c",
-        "index": 2,
+        "index": 3,
         "title": "Code Quiz",
         "picture": "https://media.giphy.com/media/iJgOcYFBuZZOUL5CFN/giphy.gif",
         "about": "HTML CSS BOOTSTRAP JAVASCRIPT/JQUERY",
@@ -38,7 +48,7 @@ const data = {
     {
         // MVC Burger Resturaunt
         "_id": "593e92973d4d15eedb129aee",
-        "index": 3,
+        "index": 4,
         "title": "MVC Burger Resturaunt",
         "picture": "https://media.giphy.com/media/huOgLzf13q97T0XtrC/giphy.gif",
         "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS EXPRESS-HANDLEBARS MYSQL ORM",
@@ -48,22 +58,12 @@ const data = {
     {
         // EMPLOYEE TRACKER
         "_id": "593e929728b7f8543b7907e1",
-        "index": 4,
+        "index": 5,
         "title": "EMPLOYEE TRACKER",
         "picture": "https://media.giphy.com/media/kDx2eO0DkaYnP1uPD5/giphy.gif",
         "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS",
         "githubLink": "https://github.com/BrennanPredmore/OOP",
         "projectLink": ""
-    },
-    {
-        // Work Day Scheduler
-        "_id": "593e92975996a6263d146444",
-        "index": 5,
-        "title": "Work Day Scheduler",
-        "picture": "https://media.giphy.com/media/IgdImK8Aq7UDfSs6kO/giphy.gif",
-        "about": "HTML CSS BOOTSTRAP JAVASCRIPT JQUERY",
-        "githubLink": "https://github.com/BrennanPredmore/work_day_scheduler",
-        "projectLink": "https://brennanpredmore.github.io/work_day_scheduler/"
     },
     {
         // LinkedIn
