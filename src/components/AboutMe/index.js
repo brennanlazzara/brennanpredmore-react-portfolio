@@ -11,8 +11,8 @@ function index() {
 
 
  <p>
-   Brennan is a former music teacher that is now enrolled in the UT full stack software development bootcamp.
-   He is originally from Rochester, New York and moved to Austin six years ago after he graduated a music education
+   Brennan is a former music teacher that is a graduate of The University of Texas at Austin - Full Stack Software Development Bootcamp.
+   He is originally from Rochester, New York and moved to Austin six years ago after he graduated from a music education
    program.
    He hopes to become a full stack software developer/engineer one day and change the world around him!
    <br/>
@@ -30,7 +30,7 @@ function index() {
    He has also played in numerous successful bands all over the country and is still currently gigging around Texas.
    Brennan has a strong emphasis on technique and learning the fundamentals of any of his chosen fields of study.
    <br />
-   "I work and practice very hard along side my peers to achieve any goal we set out to accomplish.
+   "I work and practice very hard alongside my peers to achieve any goal we set out to accomplish.
    I personally believe that if I am learning, having fun, and my team is with me every step of the way, we will in
    turn be successful!"
  <br />
