@@ -9,7 +9,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function index() {
     
     return (
-<div className="footer-dark" style={{padding: 12, height: 75, overflowY: 'hidden'}}>
+<div className="footer-dark" style={{padding: 12, height: 75}}>
   <footer>
     <div className="container">
       <div className="row" style={{height: 64}}>
