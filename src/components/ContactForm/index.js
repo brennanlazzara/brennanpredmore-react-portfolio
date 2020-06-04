@@ -55,8 +55,8 @@ export default Form;
 
 // ADDITIONAL STYLING
 const subHeaderStyle = {
-  color: '#333',
-  textShadow: '3px  3px 0 #f2f2f2 -1px -1px 0 #f2f2f2 1px -1px 0 #f2f2f2 -1px  1px 0 #f2f2f2 1px  1px 0 #f2f2f2',
+  color: '#fff',
+  textShadow: '3px 3px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333',
   clear: 'both',
   height: '-150px',
   fontWeight: 'bold',

@@ -26,7 +26,7 @@ const data = {
         // TRUSTAFARIAN CARD
         "_id": "593e9297e17df20c4a237d42",
         "index": 2,
-        "title": "Trustafarians World Wide", 
+        "title": "Trustafarians", 
         "picture": "https://media.giphy.com/media/ZA6BQajWQV6y8HYQgn/giphy.gif",
         "about": "HTML CSS - BULMA JAVASCRIPT JQUERY API (SKYSCANNER, OPEN WEATHER)",
         "githubLink": "https://github.com/BrennanPredmore/project_1",
@@ -49,7 +49,7 @@ const data = {
         // MVC Burger Resturaunt
         "_id": "593e92973d4d15eedb129aee",
         "index": 4,
-        "title": "MVC Burger Resturaunt",
+        "title": "MVC",
         "picture": "https://media.giphy.com/media/huOgLzf13q97T0XtrC/giphy.gif",
         "about": "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS EXPRESS-HANDLEBARS MYSQL ORM",
         "githubLink": "https://github.com/BrennanPredmore/MVC",

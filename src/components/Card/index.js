@@ -9,14 +9,15 @@ const Card = ({property}) => {
     return (
         <div id={`card-${index}`} className="card">
                   <h6 id="cardTitle">{title}</h6>
-                { index <= 5 ? <a id="gitRepo" href={githubLink}>Github Repository</a>  : null }
-                {index < 8 ? <a href={projectLink}> <img src={picture} alt="GIF"/></a> : 
+
+                {index < 8 ? <a  href={projectLink}> <img src={picture} alt="GIF"/></a> : 
            <a href="./assets/BrennanPredmoreResume2020.pdf" download="resume"><img src={picture} alt="resume"/></a> }
             
 
             <div className="details">
                     <h6 style={{textAlign: "center"}}>{badgeItems}</h6>
             </div>
+            { index <= 5 ? <a style={githubLinkStyle} id="gitRepo" href={githubLink}>Github Repository</a>  : null }
         </div>
     )
 }
@@ -25,4 +26,14 @@ Card.propTypes = {
     property: PropTypes.object.isRequired
 }
 
+// STYLE VARIABLES
+const githubLinkStyle = {
+    color: '#fff',
+    textAlign: 'center',
+    marginTop: '2px'
+}
+
+// const projectGIF = {
+//     marginTop: '20px'
+// }
 export default Card;
