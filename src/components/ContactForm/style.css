@@ -1,0 +1,15 @@
+#button {
+    background-color: #4aaaa5;
+    font-size: 15px;
+    color: white;
+}
+
+
+.container {
+    margin-bottom: 50px;
+}
+
+.container-fluid {
+
+    text-align: center;
+}

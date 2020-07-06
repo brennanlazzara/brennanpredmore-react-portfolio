@@ -1,0 +1,59 @@
+#header {
+    background-color: rgb(74, 170, 165, 0.4);
+    border: #333 solid thin;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
+    margin-left: 16.6%;
+    padding: 20px;
+    font-size: 25px;
+    border: thick groove #999999;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #4aaaa5;
+    border: #333 solid 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* HEADER LINKS */
+/* about link */
+#links {
+    margin: 0 auto;
+    color: white;
+    text-shadow: 3px 3px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
+}
+
+#about {
+    border-right: #777777 solid 1px;
+    border-spacing: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    color: #777777;
+}
+
+/* portfolio link */
+#portfolio {
+    border-right: #777777 solid 1px;
+    border-spacing: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    color: #777777;
+}
+
+/* contact link */
+#contact {
+    padding-right: 16.6%;
+    color: #777777;
+
+}
