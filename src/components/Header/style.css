@@ -57,3 +57,14 @@
     color: #777777;
 
 }
+
+
+@media(max-width: 767px) {
+    #header {
+        margin: 0 auto;
+    }
+
+    .navbar-light .navbar-toggler {
+        display: contents;
+    }
+}

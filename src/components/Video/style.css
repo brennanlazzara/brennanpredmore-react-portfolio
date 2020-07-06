@@ -1,7 +1,101 @@
-    /* BACKGROUND VIDEO */
-  #myVideo {
+/* BACKGROUND VIDEO */
+#myVideo {
     position: fixed;
     left: 0;
     z-index: -1;
     width: 100vw;
-  }
+}
+
+/* BACKGROUND MY VIDEO */
+@media(min-aspect-ratio: 16 / 9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 767px) {
+    #myVideo {
+        display: none;
+    }
+
+    body {
+        background-image: url('../../mobileBackGround.png');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* Greater than 641px and less than 990px, Tablet  */
+@media(min-width:641px) and(max-width:990px) {
+    body {
+        background-image: url('../../mobileBackGround.png');
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    #myVideo {
+        display: none;
+    }
+
+}
+
+/* Less than 640px, Mobile  */
+@media(min-width:400px) and(max-width: 641px) {
+    body {
+        background-image: url('../../mobileBackGround.png');
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+    #myVideo {
+        display: none;
+    }
+
+    .social {
+        height: 17.5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+/* Less than 640px, Mobile  */
+@media(min-width:375px) and(max-width: 399px) {
+    body {
+        background-image: url('../../mobileBackGround.png');
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+    #myVideo {
+        display: none;
+    }
+
+    .social {
+        height: 17.5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+/* Less than 640px, Mobile  */
+@media(min-width:300px) and(max-width: 375px) {
+    body {
+        background-image: url('../../mobileBackGround.png');
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    #myVideo {
+        display: none;
+    }
+
+    .social {
+        height: 17.5rem;
+        margin-bottom: 3rem;
+    }
+}
