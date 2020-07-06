@@ -1,0 +1,31 @@
+/* PORTFOLIO CARDS */
+h1 {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 0 #f2f2f2, -1px -1px 0 #f2f2f2, 1px -1px 0 #f2f2f2, -1px 1px 0 #f2f2f2, 1px 1px 0 #f2f2f2;
+}
+
+#gitRepo {
+    font-size: 10%;
+}
+
+h5 {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 0 #f2f2f2, -1px -1px 0 #f2f2f2, 1px -1px 0 #f2f2f2, -1px 1px 0 #f2f2f2, 1px 1px 0 #f2f2f2;
+}
+
+#cardTitle {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 0.5 rem;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h7 {
+    font-size: 10%;
+}
