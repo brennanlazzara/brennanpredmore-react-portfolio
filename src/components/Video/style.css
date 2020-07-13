@@ -1,12 +1,9 @@
-Xz/* BACKGROUND VIDEO */
+/* BACKGROUND VIDEO */
 #myVideo {
     position: fixed;
     left: 0;
     z-index: -1;
-    height: 100%;
-    width: 177.77777778vh;
-    min-width: 100%;
-    min-height: 56.25vw;
+    width: 100vw;
 }
 
 /* BACKGROUND MY VIDEO */
@@ -26,8 +23,6 @@ Xz/* BACKGROUND VIDEO */
         background-image: url('../../mobileBackGround.png');
         background-position: center;
         background-size: cover;
-        height: 100vh;
-        background-repeat: no-repeat;
     }
 }
 
@@ -37,8 +32,7 @@ Xz/* BACKGROUND VIDEO */
         background-image: url('../../mobileBackGround.png');
         background-position: center;
         background-size: cover;
-        height: 100vh;
-        background-repeat: no-repeat;
+
     }
 
     #myVideo {
@@ -53,8 +47,7 @@ Xz/* BACKGROUND VIDEO */
         background-image: url('../../mobileBackGround.png');
         background-position: center;
         background-size: cover;
-        height: 100vh;
-        background-repeat: no-repeat;
+
 
     }
 
@@ -74,8 +67,7 @@ Xz/* BACKGROUND VIDEO */
         background-image: url('../../mobileBackGround.png');
         background-position: center;
         background-size: cover;
-        height: 100vh;
-        background-repeat: no-repeat;
+
 
     }
 
@@ -95,8 +87,7 @@ Xz/* BACKGROUND VIDEO */
         background-image: url('../../mobileBackGround.png');
         background-position: center;
         background-size: cover;
-        height: 100vh;
-        background-repeat: no-repeat;
+
     }
 
     #myVideo {
