@@ -81,14 +81,6 @@ const data = {
         "picture": "assets/githubScreenShot.png",
         "projectLink": "https://github.com/BrennanPredmore"
     },
-    {
-        // RESUME
-        "_id": "593e92972bd8fd05f2ab1a89",
-        "index": 8,
-        "title": "Resume",
-        "picture": "assets/resumeScreenShot.png",
-        "projectLink": ""
-    }
     ]
 }
 

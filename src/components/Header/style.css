@@ -53,11 +53,21 @@
 
 /* contact link */
 #contact {
-    padding-right: 16.6%;
+    border-right: #777777 solid 1px;
+    border-spacing: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
     color: #777777;
-
 }
 
+/* RESUME LINK */
+#resume {
+    border-right: #777777 solid 1px;
+    border-spacing: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    color: #777777;
+}
 
 @media(max-width: 767px) {
     #header {

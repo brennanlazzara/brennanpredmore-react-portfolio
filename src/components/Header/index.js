@@ -1,6 +1,6 @@
-import React from 'react'
-import {Link} from 'react-router-dom' 
-import './style.css'
+import React from 'react';
+import {Link} from 'react-router-dom'; 
+import './style.css';
 
 function index() {
     return (
@@ -31,10 +31,15 @@ function index() {
 
             <li className="nav-item">
             <div >
-              <Link to='/contact' className="nav-link" id="about"> Contact </Link>
+              <Link to='/contact' className="nav-link" id="contact"> Contact </Link>
               </div>
             </li>
-
+            
+            <li className="nav-item">
+            <div >
+            <Link to="../assets/BrennanPredmoreResume.pdf" className="nav-link" id="resume" target="_blank" download>Resume</Link>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
