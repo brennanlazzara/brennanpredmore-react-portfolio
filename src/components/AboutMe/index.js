@@ -9,7 +9,7 @@ function index() {
 
  <img id="profile_image" src="./assets/brennan.jpg" alt="me" height="200px" width="201px"/>
 
-
+{/* about me */}
  <p>
  Full Stack developer and a graduate of the University of Texas at Austin’s Full Stack Software Development 
  Bootcamp. I found a love of coding and learning new languages shortly after graduating from Finger Lakes 
