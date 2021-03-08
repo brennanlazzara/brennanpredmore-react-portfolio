@@ -23,7 +23,7 @@ const Card = ({ property }) => {
           <img src={picture} alt='GIF' />
         </a>
       ) : (
-        <a href='./assets/resume.pdf' download='resume'>
+        <a href='./assets/BrennanPredmoreResume2021.pdf' download='resume'>
           <img src={picture} alt='resume' />
         </a>
       )}
