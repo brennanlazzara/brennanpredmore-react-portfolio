@@ -8,7 +8,7 @@ const data = {
       picture: 'https://media.giphy.com/media/MDbrhKs7weDfkeNFr8/giphy.gif',
       about: 'REACT MAPBOX-GL MONGODB EXPRESS NODE',
       githubLink: 'https://github.com/Southwest-Education',
-      projectLink: 'https://southwest-education-cmlho.ondigitalocean.app/',
+      projectLink: 'https://www.southwesteducation.us/',
     },
     {
       // Jobless
