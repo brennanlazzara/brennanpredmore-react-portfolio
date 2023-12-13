@@ -10,8 +10,8 @@ function index() {
         id="profile_image"
         src="./assets/brennan.jpg"
         alt="me"
-        height="200px"
-        width="201px"
+        height="150px"
+        width="150px"
       />
 
       {/* about me */}
