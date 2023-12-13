@@ -1,4 +1,4 @@
-# Brennan Predmore React Portfolio
+# Brennan Lazzara's React Portfolio
 
 ![Screenshot](public/assets/readMeScreenShot.png)
 

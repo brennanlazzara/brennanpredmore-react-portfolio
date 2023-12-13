@@ -7,7 +7,7 @@ function index() {
         <div>
              <header>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <label id="header"><b>Brennan Predmoré</b></label>
+      <label id="header"><b>Brennan Lazzara</b></label>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@ function index() {
             
             <li className="nav-item">
             <div >
-            <Link to="../assets/Brennan_Predmore_Resume2021.pdf" className="nav-link" id="resume" target="_blank" download>Resume</Link>
+            <Link to="../assets/Brennan_Lazzara_Resume_2023.pdf" className="nav-link" id="resume" target="_blank" download>Resume</Link>
               </div>
             </li>
           </ul>
