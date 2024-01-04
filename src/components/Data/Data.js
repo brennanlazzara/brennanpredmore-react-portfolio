@@ -71,7 +71,7 @@ const data = {
       _id: "593e9297a13e246da5ba0884",
       index: 6,
       title: "LinkedIn",
-      picture: "assets/linkedInScreenShot.png",
+      picture: "assets/linkedIn.png",
       projectLink:
         "https://www.linkedin.com/in/brennan-lazzara/",
     },
