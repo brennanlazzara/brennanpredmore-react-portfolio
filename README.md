@@ -10,9 +10,11 @@ REACT.JS
 JAVASCRIPT
 
 ## Link
-https://github.com/brennanlazzara/brennanpredmore-react-portfolio
+https://github.com/brennanlazzara/brennanLazzaraReactPortfolio
 
-https://brennan-predmore-portfolio.herokuapp.com/
+
+<!-- CHANGE HEROKU APPS NAME !!!
+https://brennan-predmore-portfolio.herokuapp.com/ -->
 
 
 ## License

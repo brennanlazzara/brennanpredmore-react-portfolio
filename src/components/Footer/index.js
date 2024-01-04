@@ -26,10 +26,10 @@ function index() {
               className="col item social"
               style={{ height: 0, marginTop: 0 }}
             >
-              <a href="https://github.com/BrennanPredmore">
+              <a href="https://github.com/Brennanlazzara">
                 <FontAwesomeIcon icon={faGithubAlt} />
               </a>
-              <a href="https://www.linkedin.com/in/brennan-predmor%C3%A9-132306195/">
+              <a href="https://www.linkedin.com/in/brennan-lazzara/">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </div>
