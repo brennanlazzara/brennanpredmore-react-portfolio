@@ -37,7 +37,7 @@ function index() {
             
             <li className="nav-item">
             <div >
-            <Link to="../assets/Brennan_Lazzara_Resume_2023.pdf" className="nav-link" id="resume" target="_blank" download>Resume</Link>
+            <Link to="../assets/BrennanLazzaraResume2024.pdf" className="nav-link" id="resume" target="_blank" download>Resume</Link>
               </div>
             </li>
           </ul>
