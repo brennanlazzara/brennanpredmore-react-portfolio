@@ -10,7 +10,7 @@ REACT.JS
 JAVASCRIPT
 
 ## Link
-https://github.com/BrennanPredmore/brennanpredmore-react-portfolio
+https://github.com/brennanlazzara/brennanpredmore-react-portfolio
 
 https://brennan-predmore-portfolio.herokuapp.com/
 

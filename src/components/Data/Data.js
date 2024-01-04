@@ -1,3 +1,5 @@
+// UPDATE ALL PROJECT LINKS
+
 const data = {
   properties: [
     {
@@ -18,7 +20,7 @@ const data = {
 
       picture: "https://media.giphy.com/media/cgeIncAhR7ot5ye30F/giphy.gif",
       about: "REACT MONGODB EXPRESS NODE",
-      githubLink: "https://github.com/BrennanPredmore/jobless",
+      githubLink: "https://github.com/brennanlazzara/jobless",
       projectLink: "https://jobless2020.herokuapp.com/",
     },
     {
@@ -29,7 +31,7 @@ const data = {
       picture: "https://media.giphy.com/media/U2S8YrlEWxuyeTMV0P/giphy.gif",
       about:
         "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS MYSQL2 SEQUELIZE",
-      githubLink: "https://github.com/BrennanPredmore/project2",
+      githubLink: "https://github.com/brennanlazzara/ZeldasCutThroatKitchen",
       projectLink: "https://zelda-cut-throat-kitchen.herokuapp.com/",
     },
     {
@@ -40,10 +42,9 @@ const data = {
       picture: "https://media.giphy.com/media/ZA6BQajWQV6y8HYQgn/giphy.gif",
       about:
         "HTML CSS - BULMA JAVASCRIPT JQUERY API (SKYSCANNER, OPEN WEATHER)",
-      githubLink: "https://github.com/BrennanPredmore/project_1",
-      projectLink: "https://brennanpredmore.github.io/project_1/",
+      githubLink: "https://github.com/brennanlazzara/TrustafariansWorldWide",
+      projectLink: "", // " NEEDS HEROKU LINK",
     },
-
     {
       // MVC Burger Resturaunt
       _id: "593e92973d4d15eedb129aee",
@@ -52,7 +53,7 @@ const data = {
       picture: "https://media.giphy.com/media/huOgLzf13q97T0XtrC/giphy.gif",
       about:
         "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS EXPRESS EXPRESS-HANDLEBARS MYSQL ORM",
-      githubLink: "https://github.com/BrennanPredmore/MVC",
+      githubLink: "https://github.com/brennanlazzara/MVC",
       projectLink: "https://burgermvc.herokuapp.com/",
     },
     {
@@ -62,7 +63,7 @@ const data = {
       title: "EMPLOYEE TRACKER",
       picture: "https://media.giphy.com/media/kDx2eO0DkaYnP1uPD5/giphy.gif",
       about: "HTML CSS/BOOTSTRAP JAVASCRIPT JQUERY NODE.JS",
-      githubLink: "https://github.com/BrennanPredmore/OOP",
+      githubLink: "https://github.com/brennanlazzara/employeeTracker",
       projectLink: "",
     },
     {
@@ -72,7 +73,7 @@ const data = {
       title: "LinkedIn",
       picture: "assets/linkedInScreenShot.png",
       projectLink:
-        "https://www.linkedin.com/in/brennan-predmor%C3%A9-132306195/",
+        "https://www.linkedin.com/in/brennan-lazzara/",
     },
     {
       // GITHUB
@@ -80,7 +81,7 @@ const data = {
       index: 7,
       title: "Github",
       picture: "assets/githubScreenShot.png",
-      projectLink: "https://github.com/BrennanPredmore",
+      projectLink: "https://github.com/Brennanlazzara",
     },
   ],
 };
