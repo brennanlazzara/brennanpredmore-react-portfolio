@@ -72,8 +72,7 @@ const data = {
       index: 6,
       title: "LinkedIn",
       picture: "assets/linkedIn.png",
-      projectLink:
-        "https://www.linkedin.com/in/brennan-lazzara/",
+      projectLink: "https://www.linkedin.com/in/brennan-lazzara/",
     },
     {
       // GITHUB
